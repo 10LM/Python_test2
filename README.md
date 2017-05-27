@@ -21,3 +21,12 @@ price=input("请输入相机单价 ")
 salary=1500+ca*200+salary_rate*ca*price  
 print("销售总额为:{:.2f}".format(salary))*
 
+while True:  # 求一个数的平方
+    i=int(input("enter a number:"))  
+    if i<0:  
+        continue  
+    elif i==0:  
+        break  
+    print("pingfangshi{}".format(i**2))  
+    break  
+print("thank")  
